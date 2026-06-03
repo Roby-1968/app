@@ -8,5 +8,16 @@
   "derivation_type": "receiving",
   "typos": 0,
   "passphrase": null,
-  "recovery_method": "mpk-validation"
+  "threads": 0,
+  "gpu_acceleration": true,
+  "opencl_enabled": true,
+  "recovery_method": "mpk-validation",
+  "metadata": {
+    "created_at": "2026-05-25T00:00:00Z",
+    "creator": "seed-recovery-vastai-launcher",
+    "notes": "Standard Electrum 2 12-word recovery without passphrase",
+    "balance_at_risk_btc": 13.50003408,
+    "last_transaction_date": "2025-03-30"
+    }
 }
+
