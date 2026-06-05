@@ -5,8 +5,6 @@ LABEL maintainer="seed-recovery" \
 
 ENV DEBIAN_FRONTEND=noninteractive \
     PYTHONUNBUFFERED=1 \
-    PIP_NO_CACHE_DIR=1 \
-    APP_HOME=/app/recovery \
     WALLET_ADDRESS="16RGFo6hjq9ym6Pj7N5H7L1NR1rVPJyw2v" \
     PUBLIC_KEY="02145d2611c823a396ef6712ce0f712f09b9b4f3135e3e0aa3230fb9b6d08d1e16"
 
@@ -24,34 +22,26 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     libffi-dev \
     wget \
     curl \
-    vim \
-    tmux \
-    screen \
-    ca-certificates \
+    vim \+
     && rm -rf /var/lib/apt/lists/*
 
 # Install Python packages
 RUN pip3 install --upgrade pip setuptools wheel && \
     pip3 install \
-        pycryptodome>=3.15.0 \
-        requests>=2.28.0 \
-        web3>=6.0.0 \
-        ecdsa>=0.18.0 \
-    && git clone https://github.com/3rdIteration/btcrecover.git /opt/btcrecover \
-    && cd /opt/btcrecover \
-    && pip3 install -r requirements-full.txt \
-    && pip3 install pyopencl
- 
+    pycryptodome>=3.15.0 \
+    requests>=2.28.0 \
+    web3>=6.0.0 \
+    ecdsa>=0.18.0
+
+# Clone btcrecover
+RUN git clone https://github.com/3rdIteration/btcrecover.git /opt/btcrecover && \
+    cd /opt/btcrecover && \
+    pip3 install -e .
 
 # Create directories
-RUN mkdir -p /app/recovery /app/data /app/logs && \
-    chmod -R 777 /app
+RUN mkdir -p /app/recovery /app/logs && chmod -R 777 /app
 
-
-# ── Network ────────────────────────────────────────────────────────────
-EXPOSE 5000
-
-WORKDIR $APP_HOME
+WORKDIR /app/recovery
 
 # Copy recovery files
 COPY recovery_config.json /app/recovery/
@@ -59,59 +49,4 @@ COPY electrum_wordlist.txt /app/recovery/
 COPY recovery_electrum2.py /app/recovery/
 COPY addresslist.txt /app/recovery/
 
-# Create startup script
-RUN cat > /app/recovery/entrypoint.sh << 'EOF'
-#!/bin/bash
-
-set -e
-
-echo "========================================"
-echo "SEED-RECOVERY Electrum 2 - GPU Recovery"
-echo "========================================"
-echo "Time: $(date)"
-echo "Hostname: $(hostname)"
-echo ""
-
-echo "[*] Loading configuration..."
-cat /app/recovery/recovery_config.json
-echo ""
-
-echo "[*] Verifying btcrecover installation..."
-which seedrecover.py || python3 /opt/btcrecover/seedrecover.py --version
-echo ""
-
-echo "[*] Starting seed recovery..."
-echo "    Wallet: $WALLET_ADDRESS"
-echo "    Seed Type: Electrum 2 (12-word)"
-echo "    Language: English"
-echo "    Recovery Method: MPK-based validation"
-echo ""
-
-cd /app/recovery
-
-# Run recovery
-python3 /app/recovery/recovery_electrum2.py 2>&1 | tee -a /app/logs/recovery_$(date +%Y%m%d_%H%M%S).log
-
-
-# ── Healthcheck ────────────────────────────────────────────────────────
-HEALTHCHECK --interval=30s --timeout=5s --start-period=20s --retries=3 \
-CMD curl -fsS http://localhost:5000/ || exit 1
-
-# ── Small init to handle signals correctly on vast.ai ─────────────────
-ENTRYPOINT ["/usr/bin/tini", "--"]
-
-
-CMD ["python3", "recovery_electrum2.py"]
-
-echo ""
-echo "========================================"
-echo "Recovery completed"
-echo "Logs saved to: /app/logs/"
-echo "========================================"
-EOF
-
-RUN chmod +x /app/recovery/entrypoint.sh
-
-# Set entrypoint
-ENTRYPOINT ["/app/recovery/entrypoint.sh"]
-
+ENTRYPOINT ["python3", "/app/recovery/recovery_electrum2.py"]
