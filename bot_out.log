@@ -1,0 +1,888 @@
+nohup: ignoring input
+=== Bot momentum BTC up/down — Polymarket ===
+Modalità: DRY-RUN (nessun ordine reale)
+Guardrail: max $5/trade, max 6 trade/ora, stop a -$25/giorno
+Kill switch: crea il file 'KILL_SWITCH' per fermare nuovi ordini in qualsiasi momento.
+
+
+[MERCATO] Nuova finestra attiva: btc-updown-5m-1782853200
+[RTDS] Connesso. Sottoscrivo Chainlink btc/usd...
+[CLOB] Connesso. Sottoscrivo Up/Down per btc-updown-5m-1782853200...
+
+[SEGNALE] DOWN | t=221s | body_pct=0.0300% | prob_stimata=0.720 | ask=0.290 | EV=0.4300 | slug=btc-updown-5m-1782853200
+[DRY-RUN] Comprerei $5 di token DOWN a ~0.290 (EV stimato 0.4300). Nessun ordine reale piazzato.
+
+[MERCATO] Nuova finestra attiva: btc-updown-5m-1782853500
+[CLOB] Connesso. Sottoscrivo Up/Down per btc-updown-5m-1782853500...
+
+[MERCATO] Nuova finestra attiva: btc-updown-5m-1782853800
+[CLOB] Connesso. Sottoscrivo Up/Down per btc-updown-5m-1782853800...
+[RECONCILE] btc-updown-5m-1782853200: previsto DOWN, esito reale DOWN -> VINTO | P&L reale: $3.550 | P&L cumulato: $3.550
+
+[RIEPILOGO] 1 segnali riconciliati | P&L realizzato cumulato: $3.550 | 0 in attesa
+
+
+[RIEPILOGO] 1 segnali riconciliati | P&L realizzato cumulato: $3.550 | 0 in attesa
+
+
+[RIEPILOGO] 1 segnali riconciliati | P&L realizzato cumulato: $3.550 | 0 in attesa
+
+
+[MERCATO] Nuova finestra attiva: btc-updown-5m-1782854100
+[CLOB] Connesso. Sottoscrivo Up/Down per btc-updown-5m-1782854100...
+
+[RIEPILOGO] 1 segnali riconciliati | P&L realizzato cumulato: $3.550 | 0 in attesa
+
+
+[RIEPILOGO] 1 segnali riconciliati | P&L realizzato cumulato: $3.550 | 0 in attesa
+
+
+[MERCATO] Nuova finestra attiva: btc-updown-5m-1782854400
+[CLOB] Connesso. Sottoscrivo Up/Down per btc-updown-5m-1782854400...
+
+[RIEPILOGO] 1 segnali riconciliati | P&L realizzato cumulato: $3.550 | 0 in attesa
+
+
+[RIEPILOGO] 1 segnali riconciliati | P&L realizzato cumulato: $3.550 | 0 in attesa
+
+
+[RIEPILOGO] 1 segnali riconciliati | P&L realizzato cumulato: $3.550 | 0 in attesa
+
+
+[MERCATO] Nuova finestra attiva: btc-updown-5m-1782854700
+[CLOB] Connesso. Sottoscrivo Up/Down per btc-updown-5m-1782854700...
+
+[RIEPILOGO] 1 segnali riconciliati | P&L realizzato cumulato: $3.550 | 0 in attesa
+
+
+[RIEPILOGO] 1 segnali riconciliati | P&L realizzato cumulato: $3.550 | 0 in attesa
+
+
+[MERCATO] Nuova finestra attiva: btc-updown-5m-1782855000
+[CLOB] Connesso. Sottoscrivo Up/Down per btc-updown-5m-1782855000...
+
+[RIEPILOGO] 1 segnali riconciliati | P&L realizzato cumulato: $3.550 | 0 in attesa
+
+
+[RIEPILOGO] 1 segnali riconciliati | P&L realizzato cumulato: $3.550 | 0 in attesa
+
+
+[RIEPILOGO] 1 segnali riconciliati | P&L realizzato cumulato: $3.550 | 0 in attesa
+
+
+[MERCATO] Nuova finestra attiva: btc-updown-5m-1782855300
+[CLOB] Connesso. Sottoscrivo Up/Down per btc-updown-5m-1782855300...
+
+[RIEPILOGO] 1 segnali riconciliati | P&L realizzato cumulato: $3.550 | 0 in attesa
+
+
+[RIEPILOGO] 1 segnali riconciliati | P&L realizzato cumulato: $3.550 | 0 in attesa
+
+
+[MERCATO] Nuova finestra attiva: btc-updown-5m-1782855600
+[CLOB] Connesso. Sottoscrivo Up/Down per btc-updown-5m-1782855600...
+
+[RIEPILOGO] 1 segnali riconciliati | P&L realizzato cumulato: $3.550 | 0 in attesa
+
+
+[RIEPILOGO] 1 segnali riconciliati | P&L realizzato cumulato: $3.550 | 0 in attesa
+
+
+[RIEPILOGO] 1 segnali riconciliati | P&L realizzato cumulato: $3.550 | 0 in attesa
+
+
+[MERCATO] Nuova finestra attiva: btc-updown-5m-1782855900
+[CLOB] Connesso. Sottoscrivo Up/Down per btc-updown-5m-1782855900...
+
+[RIEPILOGO] 1 segnali riconciliati | P&L realizzato cumulato: $3.550 | 0 in attesa
+
+
+[RIEPILOGO] 1 segnali riconciliati | P&L realizzato cumulato: $3.550 | 0 in attesa
+
+
+[SEGNALE] DOWN | t=270s | body_pct=0.0357% | prob_stimata=0.727 | ask=0.650 | EV=0.0773 | slug=btc-updown-5m-1782855900
+[DRY-RUN] Comprerei $5 di token DOWN a ~0.650 (EV stimato 0.0773). Nessun ordine reale piazzato.
+
+[MERCATO] Nuova finestra attiva: btc-updown-5m-1782856200
+[CLOB] Connesso. Sottoscrivo Up/Down per btc-updown-5m-1782856200...
+
+[RIEPILOGO] 1 segnali riconciliati | P&L realizzato cumulato: $3.550 | 1 in attesa
+
+
+[RIEPILOGO] 1 segnali riconciliati | P&L realizzato cumulato: $3.550 | 1 in attesa
+
+
+[RIEPILOGO] 1 segnali riconciliati | P&L realizzato cumulato: $3.550 | 1 in attesa
+
+
+[MERCATO] Nuova finestra attiva: btc-updown-5m-1782856500
+[CLOB] Connesso. Sottoscrivo Up/Down per btc-updown-5m-1782856500...
+
+[RIEPILOGO] 1 segnali riconciliati | P&L realizzato cumulato: $3.550 | 1 in attesa
+
+[RECONCILE] btc-updown-5m-1782855900: previsto DOWN, esito reale DOWN -> VINTO | P&L reale: $1.750 | P&L cumulato: $5.300
+
+[RIEPILOGO] 2 segnali riconciliati | P&L realizzato cumulato: $5.300 | 0 in attesa
+
+
+[MERCATO] Nuova finestra attiva: btc-updown-5m-1782856800
+[CLOB] Connesso. Sottoscrivo Up/Down per btc-updown-5m-1782856800...
+
+[RIEPILOGO] 2 segnali riconciliati | P&L realizzato cumulato: $5.300 | 0 in attesa
+
+
+[RIEPILOGO] 2 segnali riconciliati | P&L realizzato cumulato: $5.300 | 0 in attesa
+
+
+[MERCATO] Nuova finestra attiva: btc-updown-5m-1782857100
+
+[RIEPILOGO] 2 segnali riconciliati | P&L realizzato cumulato: $5.300 | 0 in attesa
+
+[CLOB] Connesso. Sottoscrivo Up/Down per btc-updown-5m-1782857100...
+
+[RIEPILOGO] 2 segnali riconciliati | P&L realizzato cumulato: $5.300 | 0 in attesa
+
+
+[RIEPILOGO] 2 segnali riconciliati | P&L realizzato cumulato: $5.300 | 0 in attesa
+
+
+[MERCATO] Nuova finestra attiva: btc-updown-5m-1782857400
+[CLOB] Connesso. Sottoscrivo Up/Down per btc-updown-5m-1782857400...
+
+[RIEPILOGO] 2 segnali riconciliati | P&L realizzato cumulato: $5.300 | 0 in attesa
+
+
+[RIEPILOGO] 2 segnali riconciliati | P&L realizzato cumulato: $5.300 | 0 in attesa
+
+
+[SEGNALE] DOWN | t=251s | body_pct=0.0435% | prob_stimata=0.738 | ask=0.700 | EV=0.0376 | slug=btc-updown-5m-1782857400
+[RESET GIORNALIERO] Nuovo giorno, azzero il P&L realizzato (era 5.30).
+[DRY-RUN] Comprerei $5 di token DOWN a ~0.700 (EV stimato 0.0376). Nessun ordine reale piazzato.
+
+[MERCATO] Nuova finestra attiva: btc-updown-5m-1782857700
+
+[RIEPILOGO] 2 segnali riconciliati | P&L realizzato cumulato: $0.000 | 1 in attesa
+
+[CLOB] Connesso. Sottoscrivo Up/Down per btc-updown-5m-1782857700...
+
+[RIEPILOGO] 2 segnali riconciliati | P&L realizzato cumulato: $0.000 | 1 in attesa
+
+
+[SEGNALE] DOWN | t=212s | body_pct=0.0409% | prob_stimata=0.734 | ask=0.700 | EV=0.0342 | slug=btc-updown-5m-1782857700
+[DRY-RUN] Comprerei $5 di token DOWN a ~0.700 (EV stimato 0.0342). Nessun ordine reale piazzato.
+
+[RIEPILOGO] 2 segnali riconciliati | P&L realizzato cumulato: $0.000 | 2 in attesa
+
+
+[MERCATO] Nuova finestra attiva: btc-updown-5m-1782858000
+[CLOB] Connesso. Sottoscrivo Up/Down per btc-updown-5m-1782858000...
+
+[RIEPILOGO] 2 segnali riconciliati | P&L realizzato cumulato: $0.000 | 2 in attesa
+
+[RECONCILE] btc-updown-5m-1782857400: previsto DOWN, esito reale UP -> PERSO | P&L reale: $-3.500 | P&L cumulato: $-3.500
+
+[RIEPILOGO] 3 segnali riconciliati | P&L realizzato cumulato: $-3.500 | 1 in attesa
+
+[RECONCILE] btc-updown-5m-1782857700: previsto DOWN, esito reale UP -> PERSO | P&L reale: $-3.500 | P&L cumulato: $-7.000
+
+[MERCATO] Nuova finestra attiva: btc-updown-5m-1782858300
+[CLOB] Connesso. Sottoscrivo Up/Down per btc-updown-5m-1782858300...
+
+[RIEPILOGO] 4 segnali riconciliati | P&L realizzato cumulato: $-7.000 | 0 in attesa
+
+
+[RIEPILOGO] 4 segnali riconciliati | P&L realizzato cumulato: $-7.000 | 0 in attesa
+
+
+[RIEPILOGO] 4 segnali riconciliati | P&L realizzato cumulato: $-7.000 | 0 in attesa
+
+
+[MERCATO] Nuova finestra attiva: btc-updown-5m-1782858600
+[CLOB] Connesso. Sottoscrivo Up/Down per btc-updown-5m-1782858600...
+
+[RIEPILOGO] 4 segnali riconciliati | P&L realizzato cumulato: $-7.000 | 0 in attesa
+
+
+[RIEPILOGO] 4 segnali riconciliati | P&L realizzato cumulato: $-7.000 | 0 in attesa
+
+
+[MERCATO] Nuova finestra attiva: btc-updown-5m-1782858900
+[CLOB] Connesso. Sottoscrivo Up/Down per btc-updown-5m-1782858900...
+
+[RIEPILOGO] 4 segnali riconciliati | P&L realizzato cumulato: $-7.000 | 0 in attesa
+
+
+[RIEPILOGO] 4 segnali riconciliati | P&L realizzato cumulato: $-7.000 | 0 in attesa
+
+
+[RIEPILOGO] 4 segnali riconciliati | P&L realizzato cumulato: $-7.000 | 0 in attesa
+
+
+[MERCATO] Nuova finestra attiva: btc-updown-5m-1782859200
+[CLOB] Connesso. Sottoscrivo Up/Down per btc-updown-5m-1782859200...
+
+[RIEPILOGO] 4 segnali riconciliati | P&L realizzato cumulato: $-7.000 | 0 in attesa
+
+
+[RIEPILOGO] 4 segnali riconciliati | P&L realizzato cumulato: $-7.000 | 0 in attesa
+
+
+[MERCATO] Nuova finestra attiva: btc-updown-5m-1782859500
+[CLOB] Connesso. Sottoscrivo Up/Down per btc-updown-5m-1782859500...
+
+[RIEPILOGO] 4 segnali riconciliati | P&L realizzato cumulato: $-7.000 | 0 in attesa
+
+
+[RIEPILOGO] 4 segnali riconciliati | P&L realizzato cumulato: $-7.000 | 0 in attesa
+
+
+[SEGNALE] UP | t=224s | body_pct=0.0366% | prob_stimata=0.729 | ask=0.670 | EV=0.0586 | slug=btc-updown-5m-1782859500
+[DRY-RUN] Comprerei $5 di token UP a ~0.670 (EV stimato 0.0586). Nessun ordine reale piazzato.
+
+[RIEPILOGO] 4 segnali riconciliati | P&L realizzato cumulato: $-7.000 | 1 in attesa
+
+
+[MERCATO] Nuova finestra attiva: btc-updown-5m-1782859800
+[CLOB] Connesso. Sottoscrivo Up/Down per btc-updown-5m-1782859800...
+
+[RIEPILOGO] 4 segnali riconciliati | P&L realizzato cumulato: $-7.000 | 1 in attesa
+
+
+[RIEPILOGO] 4 segnali riconciliati | P&L realizzato cumulato: $-7.000 | 1 in attesa
+
+
+[MERCATO] Nuova finestra attiva: btc-updown-5m-1782860100
+[CLOB] Connesso. Sottoscrivo Up/Down per btc-updown-5m-1782860100...
+
+[RIEPILOGO] 4 segnali riconciliati | P&L realizzato cumulato: $-7.000 | 1 in attesa
+
+[RECONCILE] btc-updown-5m-1782859500: previsto UP, esito reale UP -> VINTO | P&L reale: $1.650 | P&L cumulato: $-5.350
+
+[RIEPILOGO] 5 segnali riconciliati | P&L realizzato cumulato: $-5.350 | 0 in attesa
+
+
+[RIEPILOGO] 5 segnali riconciliati | P&L realizzato cumulato: $-5.350 | 0 in attesa
+
+
+[MERCATO] Nuova finestra attiva: btc-updown-5m-1782860400
+[CLOB] Connesso. Sottoscrivo Up/Down per btc-updown-5m-1782860400...
+
+[RIEPILOGO] 5 segnali riconciliati | P&L realizzato cumulato: $-5.350 | 0 in attesa
+
+[RTDS] Connessione chiusa. Riconnetto in 3s...
+[RTDS] Connesso. Sottoscrivo Chainlink btc/usd...
+
+[RIEPILOGO] 5 segnali riconciliati | P&L realizzato cumulato: $-5.350 | 0 in attesa
+
+
+[MERCATO] Nuova finestra attiva: btc-updown-5m-1782860700
+[CLOB] Connesso. Sottoscrivo Up/Down per btc-updown-5m-1782860700...
+
+[RIEPILOGO] 5 segnali riconciliati | P&L realizzato cumulato: $-5.350 | 0 in attesa
+
+
+[RIEPILOGO] 5 segnali riconciliati | P&L realizzato cumulato: $-5.350 | 0 in attesa
+
+
+[RIEPILOGO] 5 segnali riconciliati | P&L realizzato cumulato: $-5.350 | 0 in attesa
+
+
+[MERCATO] Nuova finestra attiva: btc-updown-5m-1782861000
+[CLOB] Connesso. Sottoscrivo Up/Down per btc-updown-5m-1782861000...
+
+[RIEPILOGO] 5 segnali riconciliati | P&L realizzato cumulato: $-5.350 | 0 in attesa
+
+
+[SEGNALE] DOWN | t=189s | body_pct=0.0308% | prob_stimata=0.721 | ask=0.670 | EV=0.0511 | slug=btc-updown-5m-1782861000
+[DRY-RUN] Comprerei $5 di token DOWN a ~0.670 (EV stimato 0.0511). Nessun ordine reale piazzato.
+
+[RIEPILOGO] 5 segnali riconciliati | P&L realizzato cumulato: $-5.350 | 1 in attesa
+
+
+[MERCATO] Nuova finestra attiva: btc-updown-5m-1782861300
+[CLOB] Connesso. Sottoscrivo Up/Down per btc-updown-5m-1782861300...
+
+[RIEPILOGO] 5 segnali riconciliati | P&L realizzato cumulato: $-5.350 | 1 in attesa
+
+
+[RIEPILOGO] 5 segnali riconciliati | P&L realizzato cumulato: $-5.350 | 1 in attesa
+
+
+[RIEPILOGO] 5 segnali riconciliati | P&L realizzato cumulato: $-5.350 | 1 in attesa
+
+
+[MERCATO] Nuova finestra attiva: btc-updown-5m-1782861600
+[CLOB] Connesso. Sottoscrivo Up/Down per btc-updown-5m-1782861600...
+[RECONCILE] btc-updown-5m-1782861000: previsto DOWN, esito reale DOWN -> VINTO | P&L reale: $1.650 | P&L cumulato: $-3.700
+
+[RIEPILOGO] 6 segnali riconciliati | P&L realizzato cumulato: $-3.700 | 0 in attesa
+
+
+[SEGNALE] DOWN | t=239s | body_pct=0.0503% | prob_stimata=0.746 | ask=0.710 | EV=0.0362 | slug=btc-updown-5m-1782861600
+[DRY-RUN] Comprerei $5 di token DOWN a ~0.710 (EV stimato 0.0362). Nessun ordine reale piazzato.
+
+[RIEPILOGO] 6 segnali riconciliati | P&L realizzato cumulato: $-3.700 | 1 in attesa
+
+
+[MERCATO] Nuova finestra attiva: btc-updown-5m-1782861900
+[CLOB] Connesso. Sottoscrivo Up/Down per btc-updown-5m-1782861900...
+
+[RIEPILOGO] 6 segnali riconciliati | P&L realizzato cumulato: $-3.700 | 1 in attesa
+
+
+[RIEPILOGO] 6 segnali riconciliati | P&L realizzato cumulato: $-3.700 | 1 in attesa
+
+
+[SEGNALE] DOWN | t=242s | body_pct=0.0309% | prob_stimata=0.721 | ask=0.690 | EV=0.0312 | slug=btc-updown-5m-1782861900
+[DRY-RUN] Comprerei $5 di token DOWN a ~0.690 (EV stimato 0.0312). Nessun ordine reale piazzato.
+
+[MERCATO] Nuova finestra attiva: btc-updown-5m-1782862200
+
+[RIEPILOGO] 6 segnali riconciliati | P&L realizzato cumulato: $-3.700 | 2 in attesa
+
+[CLOB] Connesso. Sottoscrivo Up/Down per btc-updown-5m-1782862200...
+
+
+
+[MERCATO] Nuova finestra attiva: btc-updown-5m-1783008300
+[RTDS] Connesso. Sottoscrivo Chainlink btc/usd...
+[CLOB] Connesso. Sottoscrivo Up/Down per btc-updown-5m-1783008300...
+
+[SEGNALE] DOWN | t=180s | body_pct=0.0508% | prob_stimata=0.747 | ask=0.480 | EV=0.2666 | slug=btc-updown-5m-1783008300
+[DRY-RUN] Comprerei $5 di token DOWN a ~0.480 (EV stimato 0.2666). Nessun ordine reale piazzato.
+
+[MERCATO] Nuova finestra attiva: btc-updown-5m-1783008600
+[CLOB] Connesso. Sottoscrivo Up/Down per btc-updown-5m-1783008600...
+[RECONCILE] btc-updown-5m-1783008300: previsto DOWN, esito reale UP -> PERSO | P&L reale: $-2.400 | P&L cumulato: $-2.400
+
+[MERCATO] Nuova finestra attiva: btc-updown-5m-1783008900
+
+[RIEPILOGO] 1 segnali riconciliati | P&L realizzato cumulato: $-2.400 | 0 in attesa
+
+[CLOB] Connesso. Sottoscrivo Up/Down per btc-updown-5m-1783008900...
+
+[RIEPILOGO] 1 segnali riconciliati | P&L realizzato cumulato: $-2.400 | 0 in attesa
+
+
+[RIEPILOGO] 1 segnali riconciliati | P&L realizzato cumulato: $-2.400 | 0 in attesa
+
+
+[MERCATO] Nuova finestra attiva: btc-updown-5m-1783009200
+[CLOB] Connesso. Sottoscrivo Up/Down per btc-updown-5m-1783009200...
+
+[RIEPILOGO] 1 segnali riconciliati | P&L realizzato cumulato: $-2.400 | 0 in attesa
+
+
+[RIEPILOGO] 1 segnali riconciliati | P&L realizzato cumulato: $-2.400 | 0 in attesa
+
+
+[SEGNALE] DOWN | t=189s | body_pct=0.0324% | prob_stimata=0.723 | ask=0.680 | EV=0.0432 | slug=btc-updown-5m-1783009200
+[DRY-RUN] Comprerei $5 di token DOWN a ~0.680 (EV stimato 0.0432). Nessun ordine reale piazzato.
+
+[MERCATO] Nuova finestra attiva: btc-updown-5m-1783009500
+
+[RIEPILOGO] 1 segnali riconciliati | P&L realizzato cumulato: $-2.400 | 1 in attesa
+
+[CLOB] Connesso. Sottoscrivo Up/Down per btc-updown-5m-1783009500...
+
+[RIEPILOGO] 1 segnali riconciliati | P&L realizzato cumulato: $-2.400 | 1 in attesa
+
+
+[SEGNALE] DOWN | t=181s | body_pct=0.4567% | prob_stimata=0.831 | ask=0.710 | EV=0.1210 | slug=btc-updown-5m-1783009500
+[DRY-RUN] Comprerei $5 di token DOWN a ~0.710 (EV stimato 0.1210). Nessun ordine reale piazzato.
+[RECONCILE] btc-updown-5m-1783009200: previsto DOWN, esito reale UP -> PERSO | P&L reale: $-3.400 | P&L cumulato: $-5.800
+
+[RIEPILOGO] 2 segnali riconciliati | P&L realizzato cumulato: $-5.800 | 1 in attesa
+
+
+[MERCATO] Nuova finestra attiva: btc-updown-5m-1783009800
+[CLOB] Connesso. Sottoscrivo Up/Down per btc-updown-5m-1783009800...
+
+[RIEPILOGO] 2 segnali riconciliati | P&L realizzato cumulato: $-5.800 | 1 in attesa
+
+
+[RIEPILOGO] 2 segnali riconciliati | P&L realizzato cumulato: $-5.800 | 1 in attesa
+
+
+[MERCATO] Nuova finestra attiva: btc-updown-5m-1783010100
+[CLOB] Connesso. Sottoscrivo Up/Down per btc-updown-5m-1783010100...
+
+[RIEPILOGO] 2 segnali riconciliati | P&L realizzato cumulato: $-5.800 | 1 in attesa
+
+[RECONCILE] btc-updown-5m-1783009500: previsto DOWN, esito reale DOWN -> VINTO | P&L reale: $1.450 | P&L cumulato: $-4.350
+
+[RIEPILOGO] 3 segnali riconciliati | P&L realizzato cumulato: $-4.350 | 0 in attesa
+
+
+[SEGNALE] UP | t=180s | body_pct=0.0351% | prob_stimata=0.727 | ask=0.680 | EV=0.0466 | slug=btc-updown-5m-1783010100
+[DRY-RUN] Comprerei $5 di token UP a ~0.680 (EV stimato 0.0466). Nessun ordine reale piazzato.
+
+[RIEPILOGO] 3 segnali riconciliati | P&L realizzato cumulato: $-4.350 | 1 in attesa
+
+
+[MERCATO] Nuova finestra attiva: btc-updown-5m-1783010400
+[CLOB] Connesso. Sottoscrivo Up/Down per btc-updown-5m-1783010400...
+
+[RIEPILOGO] 3 segnali riconciliati | P&L realizzato cumulato: $-4.350 | 1 in attesa
+
+
+[SEGNALE] UP | t=180s | body_pct=0.0712% | prob_stimata=0.762 | ask=0.730 | EV=0.0317 | slug=btc-updown-5m-1783010400
+[DRY-RUN] Comprerei $5 di token UP a ~0.730 (EV stimato 0.0317). Nessun ordine reale piazzato.
+
+[RIEPILOGO] 3 segnali riconciliati | P&L realizzato cumulato: $-4.350 | 2 in attesa
+
+
+[MERCATO] Nuova finestra attiva: btc-updown-5m-1783010700
+[CLOB] Connesso. Sottoscrivo Up/Down per btc-updown-5m-1783010700...
+
+[RIEPILOGO] 3 segnali riconciliati | P&L realizzato cumulato: $-4.350 | 2 in attesa
+
+[RECONCILE] btc-updown-5m-1783010100: previsto UP, esito reale UP -> VINTO | P&L reale: $1.600 | P&L cumulato: $-2.750
+
+[RIEPILOGO] 4 segnali riconciliati | P&L realizzato cumulato: $-2.750 | 1 in attesa
+
+
+[RIEPILOGO] 4 segnali riconciliati | P&L realizzato cumulato: $-2.750 | 1 in attesa
+
+
+[MERCATO] Nuova finestra attiva: btc-updown-5m-1783011000
+[CLOB] Connesso. Sottoscrivo Up/Down per btc-updown-5m-1783011000...
+[RECONCILE] btc-updown-5m-1783010400: previsto UP, esito reale UP -> VINTO | P&L reale: $1.350 | P&L cumulato: $-1.400
+
+[RIEPILOGO] 5 segnali riconciliati | P&L realizzato cumulato: $-1.400 | 0 in attesa
+
+
+[RIEPILOGO] 5 segnali riconciliati | P&L realizzato cumulato: $-1.400 | 0 in attesa
+
+
+[MERCATO] Nuova finestra attiva: btc-updown-5m-1783011300
+[CLOB] Connesso. Sottoscrivo Up/Down per btc-updown-5m-1783011300...
+
+[RIEPILOGO] 5 segnali riconciliati | P&L realizzato cumulato: $-1.400 | 0 in attesa
+
+
+[RIEPILOGO] 5 segnali riconciliati | P&L realizzato cumulato: $-1.400 | 0 in attesa
+
+
+[SEGNALE] DOWN | t=245s | body_pct=0.0626% | prob_stimata=0.755 | ask=0.710 | EV=0.0453 | slug=btc-updown-5m-1783011300
+[DRY-RUN] Comprerei $5 di token DOWN a ~0.710 (EV stimato 0.0453). Nessun ordine reale piazzato.
+
+[RIEPILOGO] 5 segnali riconciliati | P&L realizzato cumulato: $-1.400 | 1 in attesa
+
+
+[MERCATO] Nuova finestra attiva: btc-updown-5m-1783011600
+[CLOB] Connesso. Sottoscrivo Up/Down per btc-updown-5m-1783011600...
+
+[RIEPILOGO] 5 segnali riconciliati | P&L realizzato cumulato: $-1.400 | 1 in attesa
+
+
+[SEGNALE] DOWN | t=181s | body_pct=0.0395% | prob_stimata=0.732 | ask=0.700 | EV=0.0324 | slug=btc-updown-5m-1783011600
+[DRY-RUN] Comprerei $5 di token DOWN a ~0.700 (EV stimato 0.0324). Nessun ordine reale piazzato.
+
+[RIEPILOGO] 5 segnali riconciliati | P&L realizzato cumulato: $-1.400 | 2 in attesa
+
+
+[MERCATO] Nuova finestra attiva: btc-updown-5m-1783011900
+[RECONCILE] btc-updown-5m-1783011300: previsto DOWN, esito reale DOWN -> VINTO | P&L reale: $1.450 | P&L cumulato: $0.050
+[CLOB] Connesso. Sottoscrivo Up/Down per btc-updown-5m-1783011900...
+
+[RIEPILOGO] 6 segnali riconciliati | P&L realizzato cumulato: $0.050 | 1 in attesa
+
+
+[RIEPILOGO] 6 segnali riconciliati | P&L realizzato cumulato: $0.050 | 1 in attesa
+
+
+[SEGNALE] UP | t=222s | body_pct=0.0726% | prob_stimata=0.763 | ask=0.730 | EV=0.0327 | slug=btc-updown-5m-1783011900
+[DRY-RUN] Comprerei $5 di token UP a ~0.730 (EV stimato 0.0327). Nessun ordine reale piazzato.
+
+[RIEPILOGO] 6 segnali riconciliati | P&L realizzato cumulato: $0.050 | 2 in attesa
+
+
+[MERCATO] Nuova finestra attiva: btc-updown-5m-1783012200
+[CLOB] Connesso. Sottoscrivo Up/Down per btc-updown-5m-1783012200...
+
+[RIEPILOGO] 6 segnali riconciliati | P&L realizzato cumulato: $0.050 | 2 in attesa
+
+[RECONCILE] btc-updown-5m-1783011600: previsto DOWN, esito reale UP -> PERSO | P&L reale: $-3.500 | P&L cumulato: $-3.450
+
+[SEGNALE] DOWN | t=186s | body_pct=0.0636% | prob_stimata=0.756 | ask=0.710 | EV=0.0461 | slug=btc-updown-5m-1783012200
+[DRY-RUN] Comprerei $5 di token DOWN a ~0.710 (EV stimato 0.0461). Nessun ordine reale piazzato.
+
+[RIEPILOGO] 7 segnali riconciliati | P&L realizzato cumulato: $-3.450 | 2 in attesa
+
+
+[MERCATO] Nuova finestra attiva: btc-updown-5m-1783012500
+[CLOB] Connesso. Sottoscrivo Up/Down per btc-updown-5m-1783012500...
+
+[RIEPILOGO] 7 segnali riconciliati | P&L realizzato cumulato: $-3.450 | 2 in attesa
+
+[RECONCILE] btc-updown-5m-1783011900: previsto UP, esito reale UP -> VINTO | P&L reale: $1.350 | P&L cumulato: $-2.100
+
+[RIEPILOGO] 8 segnali riconciliati | P&L realizzato cumulato: $-2.100 | 1 in attesa
+
+
+[SEGNALE] UP | t=180s | body_pct=0.0336% | prob_stimata=0.725 | ask=0.680 | EV=0.0446 | slug=btc-updown-5m-1783012500
+[DRY-RUN] Comprerei $5 di token UP a ~0.680 (EV stimato 0.0446). Nessun ordine reale piazzato.
+
+[RIEPILOGO] 8 segnali riconciliati | P&L realizzato cumulato: $-2.100 | 2 in attesa
+
+
+[MERCATO] Nuova finestra attiva: btc-updown-5m-1783012800
+[CLOB] Connesso. Sottoscrivo Up/Down per btc-updown-5m-1783012800...
+
+[RIEPILOGO] 8 segnali riconciliati | P&L realizzato cumulato: $-2.100 | 2 in attesa
+
+
+[SEGNALE] UP | t=180s | body_pct=0.0414% | prob_stimata=0.735 | ask=0.700 | EV=0.0349 | slug=btc-updown-5m-1783012800
+[DRY-RUN] Comprerei $5 di token UP a ~0.700 (EV stimato 0.0349). Nessun ordine reale piazzato.
+[RECONCILE] btc-updown-5m-1783012200: previsto DOWN, esito reale UP -> PERSO | P&L reale: $-3.550 | P&L cumulato: $-5.650
+
+[RIEPILOGO] 9 segnali riconciliati | P&L realizzato cumulato: $-5.650 | 2 in attesa
+
+
+[MERCATO] Nuova finestra attiva: btc-updown-5m-1783013100
+[CLOB] Connesso. Sottoscrivo Up/Down per btc-updown-5m-1783013100...
+
+[RIEPILOGO] 9 segnali riconciliati | P&L realizzato cumulato: $-5.650 | 2 in attesa
+
+[RECONCILE] btc-updown-5m-1783012500: previsto UP, esito reale UP -> VINTO | P&L reale: $1.600 | P&L cumulato: $-4.050
+
+[RIEPILOGO] 10 segnali riconciliati | P&L realizzato cumulato: $-4.050 | 1 in attesa
+
+
+[SEGNALE] UP | t=189s | body_pct=0.0302% | prob_stimata=0.720 | ask=0.690 | EV=0.0302 | slug=btc-updown-5m-1783013100
+[DRY-RUN] Comprerei $5 di token UP a ~0.690 (EV stimato 0.0302). Nessun ordine reale piazzato.
+
+[MERCATO] Nuova finestra attiva: btc-updown-5m-1783013400
+
+[RIEPILOGO] 10 segnali riconciliati | P&L realizzato cumulato: $-4.050 | 2 in attesa
+
+[CLOB] Connesso. Sottoscrivo Up/Down per btc-updown-5m-1783013400...
+[RECONCILE] btc-updown-5m-1783012800: previsto UP, esito reale UP -> VINTO | P&L reale: $1.500 | P&L cumulato: $-2.550
+
+[RIEPILOGO] 11 segnali riconciliati | P&L realizzato cumulato: $-2.550 | 1 in attesa
+
+
+[RIEPILOGO] 11 segnali riconciliati | P&L realizzato cumulato: $-2.550 | 1 in attesa
+
+
+[MERCATO] Nuova finestra attiva: btc-updown-5m-1783013700
+[CLOB] Connesso. Sottoscrivo Up/Down per btc-updown-5m-1783013700...
+
+[RIEPILOGO] 11 segnali riconciliati | P&L realizzato cumulato: $-2.550 | 1 in attesa
+
+[RECONCILE] btc-updown-5m-1783013100: previsto UP, esito reale UP -> VINTO | P&L reale: $1.550 | P&L cumulato: $-1.000
+
+[RIEPILOGO] 12 segnali riconciliati | P&L realizzato cumulato: $-1.000 | 0 in attesa
+
+
+[MERCATO] Nuova finestra attiva: btc-updown-5m-1783014000
+
+[RIEPILOGO] 12 segnali riconciliati | P&L realizzato cumulato: $-1.000 | 0 in attesa
+
+[CLOB] Connesso. Sottoscrivo Up/Down per btc-updown-5m-1783014000...
+
+[RIEPILOGO] 12 segnali riconciliati | P&L realizzato cumulato: $-1.000 | 0 in attesa
+
+
+[RIEPILOGO] 12 segnali riconciliati | P&L realizzato cumulato: $-1.000 | 0 in attesa
+
+
+[MERCATO] Nuova finestra attiva: btc-updown-5m-1783014300
+[CLOB] Connesso. Sottoscrivo Up/Down per btc-updown-5m-1783014300...
+
+[RIEPILOGO] 12 segnali riconciliati | P&L realizzato cumulato: $-1.000 | 0 in attesa
+
+
+[RIEPILOGO] 12 segnali riconciliati | P&L realizzato cumulato: $-1.000 | 0 in attesa
+
+
+[MERCATO] Nuova finestra attiva: btc-updown-5m-1783014600
+[CLOB] Connesso. Sottoscrivo Up/Down per btc-updown-5m-1783014600...
+
+[RIEPILOGO] 12 segnali riconciliati | P&L realizzato cumulato: $-1.000 | 0 in attesa
+
+
+[RIEPILOGO] 12 segnali riconciliati | P&L realizzato cumulato: $-1.000 | 0 in attesa
+
+
+[RIEPILOGO] 12 segnali riconciliati | P&L realizzato cumulato: $-1.000 | 0 in attesa
+
+
+[MERCATO] Nuova finestra attiva: btc-updown-5m-1783014900
+[CLOB] Connesso. Sottoscrivo Up/Down per btc-updown-5m-1783014900...
+
+[RIEPILOGO] 12 segnali riconciliati | P&L realizzato cumulato: $-1.000 | 0 in attesa
+
+
+[RIEPILOGO] 12 segnali riconciliati | P&L realizzato cumulato: $-1.000 | 0 in attesa
+
+
+[MERCATO] Nuova finestra attiva: btc-updown-5m-1783015200
+[CLOB] Connesso. Sottoscrivo Up/Down per btc-updown-5m-1783015200...
+
+[RIEPILOGO] 12 segnali riconciliati | P&L realizzato cumulato: $-1.000 | 0 in attesa
+
+
+[RIEPILOGO] 12 segnali riconciliati | P&L realizzato cumulato: $-1.000 | 0 in attesa
+
+
+[RIEPILOGO] 12 segnali riconciliati | P&L realizzato cumulato: $-1.000 | 0 in attesa
+
+
+[MERCATO] Nuova finestra attiva: btc-updown-5m-1783015500
+[CLOB] Connesso. Sottoscrivo Up/Down per btc-updown-5m-1783015500...
+
+[RIEPILOGO] 12 segnali riconciliati | P&L realizzato cumulato: $-1.000 | 0 in attesa
+
+[RTDS] Connessione chiusa. Riconnetto in 3s...
+[RTDS] Connesso. Sottoscrivo Chainlink btc/usd...
+
+[RIEPILOGO] 12 segnali riconciliati | P&L realizzato cumulato: $-1.000 | 0 in attesa
+
+
+[MERCATO] Nuova finestra attiva: btc-updown-5m-1783015800
+[CLOB] Connesso. Sottoscrivo Up/Down per btc-updown-5m-1783015800...
+
+[RIEPILOGO] 12 segnali riconciliati | P&L realizzato cumulato: $-1.000 | 0 in attesa
+
+
+[RIEPILOGO] 12 segnali riconciliati | P&L realizzato cumulato: $-1.000 | 0 in attesa
+
+
+[SEGNALE] DOWN | t=180s | body_pct=0.0417% | prob_stimata=0.735 | ask=0.680 | EV=0.0553 | slug=btc-updown-5m-1783015800
+[DRY-RUN] Comprerei $5 di token DOWN a ~0.680 (EV stimato 0.0553). Nessun ordine reale piazzato.
+
+[RIEPILOGO] 12 segnali riconciliati | P&L realizzato cumulato: $-1.000 | 1 in attesa
+
+
+[MERCATO] Nuova finestra attiva: btc-updown-5m-1783016100
+[CLOB] Connesso. Sottoscrivo Up/Down per btc-updown-5m-1783016100...
+
+[RIEPILOGO] 12 segnali riconciliati | P&L realizzato cumulato: $-1.000 | 1 in attesa
+
+
+[RIEPILOGO] 12 segnali riconciliati | P&L realizzato cumulato: $-1.000 | 1 in attesa
+
+[RECONCILE] btc-updown-5m-1783015800: previsto DOWN, esito reale UP -> PERSO | P&L reale: $-3.400 | P&L cumulato: $-4.400
+
+[MERCATO] Nuova finestra attiva: btc-updown-5m-1783016400
+[CLOB] Connesso. Sottoscrivo Up/Down per btc-updown-5m-1783016400...
+
+[RIEPILOGO] 13 segnali riconciliati | P&L realizzato cumulato: $-4.400 | 0 in attesa
+
+
+[RIEPILOGO] 13 segnali riconciliati | P&L realizzato cumulato: $-4.400 | 0 in attesa
+
+
+[SEGNALE] UP | t=190s | body_pct=0.0380% | prob_stimata=0.730 | ask=0.700 | EV=0.0304 | slug=btc-updown-5m-1783016400
+[DRY-RUN] Comprerei $5 di token UP a ~0.700 (EV stimato 0.0304). Nessun ordine reale piazzato.
+
+[RIEPILOGO] 13 segnali riconciliati | P&L realizzato cumulato: $-4.400 | 1 in attesa
+
+
+[MERCATO] Nuova finestra attiva: btc-updown-5m-1783016700
+[CLOB] Connesso. Sottoscrivo Up/Down per btc-updown-5m-1783016700...
+
+[RIEPILOGO] 13 segnali riconciliati | P&L realizzato cumulato: $-4.400 | 1 in attesa
+
+
+[RIEPILOGO] 13 segnali riconciliati | P&L realizzato cumulato: $-4.400 | 1 in attesa
+
+
+[MERCATO] Nuova finestra attiva: btc-updown-5m-1783017000
+[CLOB] Connesso. Sottoscrivo Up/Down per btc-updown-5m-1783017000...
+[RECONCILE] btc-updown-5m-1783016400: previsto UP, esito reale UP -> VINTO | P&L reale: $1.500 | P&L cumulato: $-2.900
+
+[RIEPILOGO] 14 segnali riconciliati | P&L realizzato cumulato: $-2.900 | 0 in attesa
+
+
+[RIEPILOGO] 14 segnali riconciliati | P&L realizzato cumulato: $-2.900 | 0 in attesa
+
+
+[SEGNALE] DOWN | t=181s | body_pct=0.0406% | prob_stimata=0.734 | ask=0.700 | EV=0.0337 | slug=btc-updown-5m-1783017000
+[DRY-RUN] Comprerei $5 di token DOWN a ~0.700 (EV stimato 0.0337). Nessun ordine reale piazzato.
+
+[RIEPILOGO] 14 segnali riconciliati | P&L realizzato cumulato: $-2.900 | 1 in attesa
+
+
+[MERCATO] Nuova finestra attiva: btc-updown-5m-1783017300
+[CLOB] Connesso. Sottoscrivo Up/Down per btc-updown-5m-1783017300...
+
+[RIEPILOGO] 14 segnali riconciliati | P&L realizzato cumulato: $-2.900 | 1 in attesa
+
+
+[SEGNALE] DOWN | t=185s | body_pct=0.0400% | prob_stimata=0.733 | ask=0.700 | EV=0.0330 | slug=btc-updown-5m-1783017300
+[DRY-RUN] Comprerei $5 di token DOWN a ~0.700 (EV stimato 0.0330). Nessun ordine reale piazzato.
+
+[RIEPILOGO] 14 segnali riconciliati | P&L realizzato cumulato: $-2.900 | 2 in attesa
+
+[RECONCILE] btc-updown-5m-1783017000: previsto DOWN, esito reale DOWN -> VINTO | P&L reale: $1.500 | P&L cumulato: $-1.400
+
+[MERCATO] Nuova finestra attiva: btc-updown-5m-1783017600
+[CLOB] Connesso. Sottoscrivo Up/Down per btc-updown-5m-1783017600...
+
+[RIEPILOGO] 15 segnali riconciliati | P&L realizzato cumulato: $-1.400 | 1 in attesa
+
+
+[RIEPILOGO] 15 segnali riconciliati | P&L realizzato cumulato: $-1.400 | 1 in attesa
+
+
+[MERCATO] Nuova finestra attiva: btc-updown-5m-1783017900
+
+[RIEPILOGO] 15 segnali riconciliati | P&L realizzato cumulato: $-1.400 | 1 in attesa
+
+[CLOB] Connesso. Sottoscrivo Up/Down per btc-updown-5m-1783017900...
+
+[RIEPILOGO] 15 segnali riconciliati | P&L realizzato cumulato: $-1.400 | 1 in attesa
+
+[RECONCILE] btc-updown-5m-1783017300: previsto DOWN, esito reale DOWN -> VINTO | P&L reale: $1.500 | P&L cumulato: $0.100
+
+[RIEPILOGO] 16 segnali riconciliati | P&L realizzato cumulato: $0.100 | 0 in attesa
+
+
+[MERCATO] Nuova finestra attiva: btc-updown-5m-1783018200
+[CLOB] Connesso. Sottoscrivo Up/Down per btc-updown-5m-1783018200...
+
+[RIEPILOGO] 16 segnali riconciliati | P&L realizzato cumulato: $0.100 | 0 in attesa
+
+
+[RIEPILOGO] 16 segnali riconciliati | P&L realizzato cumulato: $0.100 | 0 in attesa
+
+
+[MERCATO] Nuova finestra attiva: btc-updown-5m-1783018500
+
+[RIEPILOGO] 16 segnali riconciliati | P&L realizzato cumulato: $0.100 | 0 in attesa
+
+[CLOB] Connesso. Sottoscrivo Up/Down per btc-updown-5m-1783018500...
+
+[RIEPILOGO] 16 segnali riconciliati | P&L realizzato cumulato: $0.100 | 0 in attesa
+
+
+[RIEPILOGO] 16 segnali riconciliati | P&L realizzato cumulato: $0.100 | 0 in attesa
+
+
+[MERCATO] Nuova finestra attiva: btc-updown-5m-1783018800
+[CLOB] Connesso. Sottoscrivo Up/Down per btc-updown-5m-1783018800...
+
+[RIEPILOGO] 16 segnali riconciliati | P&L realizzato cumulato: $0.100 | 0 in attesa
+
+
+[RIEPILOGO] 16 segnali riconciliati | P&L realizzato cumulato: $0.100 | 0 in attesa
+
+
+[MERCATO] Nuova finestra attiva: btc-updown-5m-1783019100
+[CLOB] Connesso. Sottoscrivo Up/Down per btc-updown-5m-1783019100...
+
+[RIEPILOGO] 16 segnali riconciliati | P&L realizzato cumulato: $0.100 | 0 in attesa
+[MERCATO] Nuova finestra attiva: btc-updown-5m-1783019100
+[CLOB] Connesso. Sottoscrivo Up/Down per btc-updown-5m-1783019100...
+
+[RIEPILOGO] 16 segnali riconciliati | P&L realizzato cumulato: $0.100 | 0 in attesa
+
+
+[RIEPILOGO] 16 segnali riconciliati | P&L realizzato cumulato: $0.100 | 0 in attesa
+
+
+[RIEPILOGO] 16 segnali riconciliati | P&L realizzato cumulato: $0.100 | 0 in attesa
+
+
+[MERCATO] Nuova finestra attiva: btc-updown-5m-1783019400
+[CLOB] Connesso. Sottoscrivo Up/Down per btc-updown-5m-1783019400...
+
+[RIEPILOGO] 16 segnali riconciliati | P&L realizzato cumulato: $0.100 | 0 in attesa
+
+
+[SEGNALE] UP | t=189s | body_pct=0.0351% | prob_stimata=0.727 | ask=0.520 | EV=0.2066 | slug=btc-updown-5m-1783019400
+[DRY-RUN] Comprerei $5 di token UP a ~0.520 (EV stimato 0.2066). Nessun ordine reale piazzato.
+
+[RIEPILOGO] 16 segnali riconciliati | P&L realizzato cumulato: $0.100 | 1 in attesa
+
+
+[MERCATO] Nuova finestra attiva: btc-updown-5m-1783019700
+[CLOB] Connesso. Sottoscrivo Up/Down per btc-updown-5m-1783019700...
+
+[RIEPILOGO] 16 segnali riconciliati | P&L realizzato cumulato: $0.100 | 1 in attesa
+
+
+[RIEPILOGO] 16 segnali riconciliati | P&L realizzato cumulato: $0.100 | 1 in attesa
+
+[RECONCILE] btc-updown-5m-1783019400: previsto UP, esito reale UP -> VINTO | P&L reale: $2.400 | P&L cumulato: $2.500
+
+[RIEPILOGO] 17 segnali riconciliati | P&L realizzato cumulato: $2.500 | 0 in attesa
+
+
+[MERCATO] Nuova finestra attiva: btc-updown-5m-1783020000
+[CLOB] Connesso. Sottoscrivo Up/Down per btc-updown-5m-1783020000...
+
+[RIEPILOGO] 17 segnali riconciliati | P&L realizzato cumulato: $2.500 | 0 in attesa
+
+
+[RIEPILOGO] 17 segnali riconciliati | P&L realizzato cumulato: $2.500 | 0 in attesa
+
+
+[MERCATO] Nuova finestra attiva: btc-updown-5m-1783020300
+[CLOB] Connesso. Sottoscrivo Up/Down per btc-updown-5m-1783020300...
+
+[RIEPILOGO] 17 segnali riconciliati | P&L realizzato cumulato: $2.500 | 0 in attesa
+
+
+[RIEPILOGO] 17 segnali riconciliati | P&L realizzato cumulato: $2.500 | 0 in attesa
+
+
+[RIEPILOGO] 17 segnali riconciliati | P&L realizzato cumulato: $2.500 | 0 in attesa
+
+
+[MERCATO] Nuova finestra attiva: btc-updown-5m-1783020600
+[CLOB] Connesso. Sottoscrivo Up/Down per btc-updown-5m-1783020600...
+
+[RIEPILOGO] 17 segnali riconciliati | P&L realizzato cumulato: $2.500 | 0 in attesa
+
+
+[RIEPILOGO] 17 segnali riconciliati | P&L realizzato cumulato: $2.500 | 0 in attesa
+
+
+[MERCATO] Nuova finestra attiva: btc-updown-5m-1783020900
+[CLOB] Connesso. Sottoscrivo Up/Down per btc-updown-5m-1783020900...
+
+[RIEPILOGO] 17 segnali riconciliati | P&L realizzato cumulato: $2.500 | 0 in attesa
+
+
+[RIEPILOGO] 17 segnali riconciliati | P&L realizzato cumulato: $2.500 | 0 in attesa
+
+
+[RIEPILOGO] 17 segnali riconciliati | P&L realizzato cumulato: $2.500 | 0 in attesa
+
+
+[MERCATO] Nuova finestra attiva: btc-updown-5m-1783021200
+[CLOB] Connesso. Sottoscrivo Up/Down per btc-updown-5m-1783021200...
+
+[RIEPILOGO] 17 segnali riconciliati | P&L realizzato cumulato: $2.500 | 0 in attesa
+
+
+[RIEPILOGO] 17 segnali riconciliati | P&L realizzato cumulato: $2.500 | 0 in attesa
+
+
+[MERCATO] Nuova finestra attiva: btc-updown-5m-1783021500
+[CLOB] Connesso. Sottoscrivo Up/Down per btc-updown-5m-1783021500...
+
+[RIEPILOGO] 17 segnali riconciliati | P&L realizzato cumulato: $2.500 | 0 in attesa
+
+
+[RIEPILOGO] 17 segnali riconciliati | P&L realizzato cumulato: $2.500 | 0 in attesa
+
+
+[RIEPILOGO] 17 segnali riconciliati | P&L realizzato cumulato: $2.500 | 0 in attesa
+
+
+[MERCATO] Nuova finestra attiva: btc-updown-5m-1783021800
+[CLOB] Connesso. Sottoscrivo Up/Down per btc-updown-5m-1783021800...
+
+[RIEPILOGO] 17 segnali riconciliati | P&L realizzato cumulato: $2.500 | 0 in attesa
+
+
+[RIEPILOGO] 17 segnali riconciliati | P&L realizzato cumulato: $2.500 | 0 in attesa
+
+
+[MERCATO] Nuova finestra attiva: btc-updown-5m-1783022100
+[CLOB] Connesso. Sottoscrivo Up/Down per btc-updown-5m-1783022100...
