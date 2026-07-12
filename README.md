@@ -7,7 +7,7 @@
 
 ## 📌 IL PROBLEMA
 
-Il bot momentum originale (`trade_btc_momentum.js`) aveva **performace pessime**:
+Il bot momentum originale (`trade_btc_momentum.js`) aveva **performance pessime**:
 - ❌ Win rate 49% (peggio del coin flip)
 - ❌ P&L cumulato: -$5.60 su 51 trade
 - ❌ Basato su PROB_TABLE non calibrata sul live market
@@ -176,7 +176,7 @@ Integrati nel bot:
 
 **Verdict**: ✅ **PRONTO PER LIVE TRADING**
 
-**Il bot arbitraggio è superior al momentum perché**:
+**Il bot arbitraggio è superiore al momentum perché**:
 1. Win rate **affidabile** (55-60% da convergenza, non da predizione)
 2. Profitti **positivi e consistenti** ($0.95/segnale)
 3. Logica **semplice** (non richiede continuo tuning)
